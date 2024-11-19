@@ -1686,6 +1686,10 @@
         [Optional] Should be 1 to list active, 0 to list inactive (historical).
     advert_id : str
         [Optional] If present, lists orders applying to a specific advert.
+    date_from : str
+        [Optional] Filter the orders created after this date(included) format(epoch or YYYY-MM-DD)
+    date_to : str
+        [Optional] Filter the orders created before this date(included) format(epoch or YYYY-MM-DD)
     limit : int
         [Optional] Used for paging.
     offset : int
